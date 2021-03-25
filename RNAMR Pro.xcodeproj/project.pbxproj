@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FFF7DF8260C7F99002880EF /* RNAMR_ProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF7DF7260C7F99002880EF /* RNAMR_ProApp.swift */; };
+		3FFF7DFA260C7F99002880EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF7DF9260C7F99002880EF /* ContentView.swift */; };
+		3FFF7DFC260C7F9A002880EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF7DFB260C7F9A002880EF /* Assets.xcassets */; };
+		3FFF7DFF260C7F9A002880EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF7DFE260C7F9A002880EF /* Preview Assets.xcassets */; };
+		3FFF7E0B260C7F9A002880EF /* RNAMR_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF7E0A260C7F9A002880EF /* RNAMR_ProTests.swift */; };
+		3FFF7E16260C7F9A002880EF /* RNAMR_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF7E15260C7F9A002880EF /* RNAMR_ProUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FFF7E07260C7F9A002880EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFF7DEC260C7F99002880EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFF7DF3260C7F99002880EF;
+			remoteInfo = "RNAMR Pro";
+		};
+		3FFF7E12260C7F9A002880EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFF7DEC260C7F99002880EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFF7DF3260C7F99002880EF;
+			remoteInfo = "RNAMR Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FFF7DF4260C7F99002880EF /* RNAMR Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNAMR Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFF7DF7260C7F99002880EF /* RNAMR_ProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNAMR_ProApp.swift; sourceTree = "<group>"; };
+		3FFF7DF9260C7F99002880EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FFF7DFB260C7F9A002880EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FFF7DFE260C7F9A002880EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FFF7E00260C7F9A002880EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFF7E01260C7F9A002880EF /* RNAMR_Pro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RNAMR_Pro.entitlements; sourceTree = "<group>"; };
+		3FFF7E06260C7F9A002880EF /* RNAMR ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNAMR ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFF7E0A260C7F9A002880EF /* RNAMR_ProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNAMR_ProTests.swift; sourceTree = "<group>"; };
+		3FFF7E0C260C7F9A002880EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFF7E11260C7F9A002880EF /* RNAMR ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNAMR ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFF7E15260C7F9A002880EF /* RNAMR_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNAMR_ProUITests.swift; sourceTree = "<group>"; };
+		3FFF7E17260C7F9A002880EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FFF7DF1260C7F99002880EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFF7E03260C7F9A002880EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFF7E0E260C7F9A002880EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FFF7DEB260C7F99002880EF = {
+			isa = PBXGroup;
+			children = (
+				3FFF7DF6260C7F99002880EF /* RNAMR Pro */,
+				3FFF7E09260C7F9A002880EF /* RNAMR ProTests */,
+				3FFF7E14260C7F9A002880EF /* RNAMR ProUITests */,
+				3FFF7DF5260C7F99002880EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FFF7DF5260C7F99002880EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FFF7DF4260C7F99002880EF /* RNAMR Pro.app */,
+				3FFF7E06260C7F9A002880EF /* RNAMR ProTests.xctest */,
+				3FFF7E11260C7F9A002880EF /* RNAMR ProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FFF7DF6260C7F99002880EF /* RNAMR Pro */ = {
+			isa = PBXGroup;
+			children = (
+				3FFF7DF7260C7F99002880EF /* RNAMR_ProApp.swift */,
+				3FFF7DF9260C7F99002880EF /* ContentView.swift */,
+				3FFF7DFB260C7F9A002880EF /* Assets.xcassets */,
+				3FFF7E00260C7F9A002880EF /* Info.plist */,
+				3FFF7E01260C7F9A002880EF /* RNAMR_Pro.entitlements */,
+				3FFF7DFD260C7F9A002880EF /* Preview Content */,
+			);
+			path = "RNAMR Pro";
+			sourceTree = "<group>";
+		};
+		3FFF7DFD260C7F9A002880EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3FFF7DFE260C7F9A002880EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FFF7E09260C7F9A002880EF /* RNAMR ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FFF7E0A260C7F9A002880EF /* RNAMR_ProTests.swift */,
+				3FFF7E0C260C7F9A002880EF /* Info.plist */,
+			);
+			path = "RNAMR ProTests";
+			sourceTree = "<group>";
+		};
+		3FFF7E14260C7F9A002880EF /* RNAMR ProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FFF7E15260C7F9A002880EF /* RNAMR_ProUITests.swift */,
+				3FFF7E17260C7F9A002880EF /* Info.plist */,
+			);
+			path = "RNAMR ProUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FFF7DF3260C7F99002880EF /* RNAMR Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFF7E1A260C7F9A002880EF /* Build configuration list for PBXNativeTarget "RNAMR Pro" */;
+			buildPhases = (
+				3FFF7DF0260C7F99002880EF /* Sources */,
+				3FFF7DF1260C7F99002880EF /* Frameworks */,
+				3FFF7DF2260C7F99002880EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RNAMR Pro";
+			productName = "RNAMR Pro";
+			productReference = 3FFF7DF4260C7F99002880EF /* RNAMR Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FFF7E05260C7F9A002880EF /* RNAMR ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFF7E1D260C7F9A002880EF /* Build configuration list for PBXNativeTarget "RNAMR ProTests" */;
+			buildPhases = (
+				3FFF7E02260C7F9A002880EF /* Sources */,
+				3FFF7E03260C7F9A002880EF /* Frameworks */,
+				3FFF7E04260C7F9A002880EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FFF7E08260C7F9A002880EF /* PBXTargetDependency */,
+			);
+			name = "RNAMR ProTests";
+			productName = "RNAMR ProTests";
+			productReference = 3FFF7E06260C7F9A002880EF /* RNAMR ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FFF7E10260C7F9A002880EF /* RNAMR ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFF7E20260C7F9A002880EF /* Build configuration list for PBXNativeTarget "RNAMR ProUITests" */;
+			buildPhases = (
+				3FFF7E0D260C7F9A002880EF /* Sources */,
+				3FFF7E0E260C7F9A002880EF /* Frameworks */,
+				3FFF7E0F260C7F9A002880EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FFF7E13260C7F9A002880EF /* PBXTargetDependency */,
+			);
+			name = "RNAMR ProUITests";
+			productName = "RNAMR ProUITests";
+			productReference = 3FFF7E11260C7F9A002880EF /* RNAMR ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FFF7DEC260C7F99002880EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3FFF7DF3260C7F99002880EF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3FFF7E05260C7F9A002880EF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3FFF7DF3260C7F99002880EF;
+					};
+					3FFF7E10260C7F9A002880EF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3FFF7DF3260C7F99002880EF;
+					};
+				};
+			};
+			buildConfigurationList = 3FFF7DEF260C7F99002880EF /* Build configuration list for PBXProject "RNAMR Pro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FFF7DEB260C7F99002880EF;
+			productRefGroup = 3FFF7DF5260C7F99002880EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FFF7DF3260C7F99002880EF /* RNAMR Pro */,
+				3FFF7E05260C7F9A002880EF /* RNAMR ProTests */,
+				3FFF7E10260C7F9A002880EF /* RNAMR ProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FFF7DF2260C7F99002880EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFF7DFF260C7F9A002880EF /* Preview Assets.xcassets in Resources */,
+				3FFF7DFC260C7F9A002880EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFF7E04260C7F9A002880EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFF7E0F260C7F9A002880EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FFF7DF0260C7F99002880EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFF7DFA260C7F99002880EF /* ContentView.swift in Sources */,
+				3FFF7DF8260C7F99002880EF /* RNAMR_ProApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFF7E02260C7F9A002880EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFF7E0B260C7F9A002880EF /* RNAMR_ProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFF7E0D260C7F9A002880EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFF7E16260C7F9A002880EF /* RNAMR_ProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FFF7E08260C7F9A002880EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFF7DF3260C7F99002880EF /* RNAMR Pro */;
+			targetProxy = 3FFF7E07260C7F9A002880EF /* PBXContainerItemProxy */;
+		};
+		3FFF7E13260C7F9A002880EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFF7DF3260C7F99002880EF /* RNAMR Pro */;
+			targetProxy = 3FFF7E12260C7F9A002880EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FFF7E18260C7F9A002880EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FFF7E19260C7F9A002880EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3FFF7E1B260C7F9A002880EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RNAMR Pro/RNAMR_Pro.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"RNAMR Pro/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4JYUA6UF4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "RNAMR Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cocoa-coding.RNAMR-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3FFF7E1C260C7F9A002880EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RNAMR Pro/RNAMR_Pro.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"RNAMR Pro/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4JYUA6UF4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "RNAMR Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cocoa-coding.RNAMR-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3FFF7E1E260C7F9A002880EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4JYUA6UF4;
+				INFOPLIST_FILE = "RNAMR ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cocoa-coding.RNAMR-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNAMR Pro.app/Contents/MacOS/RNAMR Pro";
+			};
+			name = Debug;
+		};
+		3FFF7E1F260C7F9A002880EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4JYUA6UF4;
+				INFOPLIST_FILE = "RNAMR ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cocoa-coding.RNAMR-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNAMR Pro.app/Contents/MacOS/RNAMR Pro";
+			};
+			name = Release;
+		};
+		3FFF7E21260C7F9A002880EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4JYUA6UF4;
+				INFOPLIST_FILE = "RNAMR ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cocoa-coding.RNAMR-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "RNAMR Pro";
+			};
+			name = Debug;
+		};
+		3FFF7E22260C7F9A002880EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4JYUA6UF4;
+				INFOPLIST_FILE = "RNAMR ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cocoa-coding.RNAMR-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "RNAMR Pro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FFF7DEF260C7F99002880EF /* Build configuration list for PBXProject "RNAMR Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFF7E18260C7F9A002880EF /* Debug */,
+				3FFF7E19260C7F9A002880EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFF7E1A260C7F9A002880EF /* Build configuration list for PBXNativeTarget "RNAMR Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFF7E1B260C7F9A002880EF /* Debug */,
+				3FFF7E1C260C7F9A002880EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFF7E1D260C7F9A002880EF /* Build configuration list for PBXNativeTarget "RNAMR ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFF7E1E260C7F9A002880EF /* Debug */,
+				3FFF7E1F260C7F9A002880EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFF7E20260C7F9A002880EF /* Build configuration list for PBXNativeTarget "RNAMR ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFF7E21260C7F9A002880EF /* Debug */,
+				3FFF7E22260C7F9A002880EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FFF7DEC260C7F99002880EF /* Project object */;
+}
