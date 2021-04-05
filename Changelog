@@ -1,0 +1,7 @@
+
+2021-04-05
+- SettingsView now with SourceFolder and DestinationFolder
+- Save and load of RenameActions in DocumentsDirectory
+
+2021-03-25
+- Projekt created
