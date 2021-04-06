@@ -26,13 +26,17 @@ struct RenameActionsListView: View {
             VStack {
                 List {
                     ForEach (controller.actions, id: \.id) { action in
-                        RenameActionRowView(action: action)
+                        RenameActionRowView(action: action, deleteAction: self.delete)
                     }
                 }
             }.frame(maxWidth: .infinity, maxHeight: .infinity)
             
             Spacer()
         }
+    }
+    
+    private func delete(action : RenameAction ) {
+        self.controller.DeleteAction(action: action)
     }
     
     private func newAction() {

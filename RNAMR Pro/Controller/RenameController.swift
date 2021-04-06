@@ -12,7 +12,7 @@ public class RenameController : ObservableObject {
     @AppStorage("sourcePath") var sourcePathString = ""
     
     // Represents old and new filenames
-    @Published var items = [FileRenameItem]()
+    @Published var renameItems = [FileRenameItem]()
     
     // Actions that should be appied to the files
     @Published var actions = [RenameAction]()
@@ -25,7 +25,7 @@ public class RenameController : ObservableObject {
     
     public func reload() {
         
-        self.items.removeAll()
+        self.renameItems.removeAll()
         
         let fileMan = FileManager.default
         
@@ -37,9 +37,9 @@ public class RenameController : ObservableObject {
             for url in urls {
                 let fileItem = FileRenameItem(url: url)
                 fileItem.originalName = url.lastPathComponent
-                fileItem.changedName = url.lastPathComponent
+                fileItem.changedName = self.applyRenameActions(originalName: url.lastPathComponent)
                 fileItem.isDirectory = url.isDirectory
-                self.items.append(fileItem)
+                self.renameItems.append(fileItem)
             }
             
         } catch {
@@ -47,11 +47,39 @@ public class RenameController : ObservableObject {
         }
     }
     
+    /// Generates a new filename with all changes applied from the list of RenameActions
+    /// - Parameter originalName: The original Filename
+    /// - Returns: The new filename with all changes applied
+    private func applyRenameActions(originalName : String) -> String
+    {
+        var changedName = originalName
+    
+        for action in self.actions {
+            
+            switch action.actionType {
+            case .replace:
+                changedName = changedName.replace(replaceText: action.firstValue, with: action.secondValue)
+                break;
+            case .remove:
+                changedName = changedName.replace(replaceText: action.firstValue, with: "")
+                break;
+            case .addStart:
+                break;
+            }
+        }
+        return changedName
+    }
+        
     public func AddAction(action : RenameAction) {
-        // Add Action
         self.actions.append(action)
-        // Save all actions
         self.saveRenameActions()
+    }
+    
+    public func DeleteAction(action : RenameAction) {
+       if let index = self.actions.firstIndex(of: action) {
+            self.actions.remove(at: index)
+            self.saveRenameActions()
+        }
     }
     
     // MARK: File Operations

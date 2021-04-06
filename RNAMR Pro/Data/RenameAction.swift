@@ -8,10 +8,14 @@ import Foundation
 // The RenameActionType tell what should be done
 // firstValue will be replaced with secondValue
 
-public struct RenameAction : Codable {
+public struct RenameAction : Codable, Equatable {
     var actionType : RenameActionType = .replace
     var firstValue : String = ""
     var secondValue : String = ""
     public var id = UUID()
+    
+    public static func == (lhs: RenameAction, rhs: RenameAction) -> Bool {
+        return lhs.id == rhs.id
+    }
 }
 

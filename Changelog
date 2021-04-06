@@ -1,4 +1,10 @@
 
+
+2021-04-06
+- Actions can be deleted from the RenameActionsListView / RenameController
+- Added RemoveType to RenameActionRowView
+- Added RemoveType to RenameActionView, second TextField turns invisible
+
 2021-04-05
 - SettingsView now with SourceFolder and DestinationFolder
 - Save and load of RenameActions in DocumentsDirectory

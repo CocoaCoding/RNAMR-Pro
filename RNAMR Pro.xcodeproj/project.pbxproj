@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FA19D04261CE0460063D800 /* DeleteButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA19D03261CE0460063D800 /* DeleteButtonStyle.swift */; };
+		3FA19D0D261CEE050063D800 /* String + Manupilation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA19D0C261CEE050063D800 /* String + Manupilation.swift */; };
+		3FA19D15261CF3E70063D800 /* View + Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA19D14261CF3E70063D800 /* View + Hidden.swift */; };
 		3FFF7DF8260C7F99002880EF /* RNAMR_ProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF7DF7260C7F99002880EF /* RNAMR_ProApp.swift */; };
 		3FFF7DFA260C7F99002880EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF7DF9260C7F99002880EF /* ContentView.swift */; };
 		3FFF7DFC260C7F9A002880EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF7DFB260C7F9A002880EF /* Assets.xcassets */; };
@@ -48,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FA19D03261CE0460063D800 /* DeleteButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButtonStyle.swift; sourceTree = "<group>"; };
+		3FA19D0C261CEE050063D800 /* String + Manupilation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Manupilation.swift"; sourceTree = "<group>"; };
+		3FA19D14261CF3E70063D800 /* View + Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Hidden.swift"; sourceTree = "<group>"; };
 		3FFF7DF4260C7F99002880EF /* RNAMR Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNAMR Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFF7DF7260C7F99002880EF /* RNAMR_ProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNAMR_ProApp.swift; sourceTree = "<group>"; };
 		3FFF7DF9260C7F99002880EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +109,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FA19D02261CE0320063D800 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				3FA19D03261CE0460063D800 /* DeleteButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		3FFF7DEB260C7F99002880EF = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +187,8 @@
 			children = (
 				3FFF7E32260C7FF0002880EF /* URL + Helper.swift */,
 				3FFF7E27260C7FB4002880EF /* FileBookmarkHandler.swift */,
+				3FA19D0C261CEE050063D800 /* String + Manupilation.swift */,
+				3FA19D14261CF3E70063D800 /* View + Hidden.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -180,6 +196,7 @@
 		3FFF7E31260C7FDF002880EF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3FA19D02261CE0320063D800 /* Styles */,
 				3FFF7E77260C9A39002880EF /* RowViews */,
 				3FFF7E39260C8003002880EF /* FolderView.swift */,
 				3FFF7E38260C8003002880EF /* SettingsView.swift */,
@@ -347,10 +364,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA19D04261CE0460063D800 /* DeleteButtonStyle.swift in Sources */,
 				3FFF7E73260C9301002880EF /* RenameActionsListView.swift in Sources */,
 				3FFF7E3C260C8003002880EF /* SettingsView.swift in Sources */,
 				3FFF7E64260C8368002880EF /* RenameAction.swift in Sources */,
 				3FFF7E2D260C7FCD002880EF /* AppDelegate.swift in Sources */,
+				3FA19D0D261CEE050063D800 /* String + Manupilation.swift in Sources */,
+				3FA19D15261CF3E70063D800 /* View + Hidden.swift in Sources */,
 				3FFF7E3D260C8003002880EF /* FolderView.swift in Sources */,
 				3FFF7E57260C81C6002880EF /* RenameActionType.swift in Sources */,
 				3FFF7E28260C7FB4002880EF /* FileBookmarkHandler.swift in Sources */,

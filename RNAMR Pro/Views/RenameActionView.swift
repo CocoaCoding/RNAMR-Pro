@@ -10,13 +10,13 @@ import SwiftUI
 struct RenameActionView: View {
     
     @Binding var newActionViewVisible : Bool
-    
     @State private var selectedAction : RenameActionType = .replace
     @State private var selectedFirstText : String = ""
     @State private var selectedSecondText : String = ""
-    
     @EnvironmentObject var controller : RenameController
-    
+   
+    @State private var isSecondValueStackVisible : Bool = true
+        
     var body: some View {
         
         VStack {
@@ -26,6 +26,9 @@ struct RenameActionView: View {
                         Text(act.displayText)
                     }
                 }.frame(width: 150)
+                .onChange (of: self.selectedAction) { _ in
+                                  pickerChanged()
+                            }
                 
                 TextField("Replace Text", text: $selectedFirstText)
                     .frame(width: 250)
@@ -39,7 +42,7 @@ struct RenameActionView: View {
                 TextField("Replace with", text: $selectedSecondText)
                     .frame(width: 250)
                 Spacer()
-            }
+            }.hidden(!isSecondValueStackVisible)
             
             HStack{
                 Button("Save", action: save)
@@ -48,7 +51,17 @@ struct RenameActionView: View {
             }
         }.frame(width: 400)
     }
+    
+    
+    private func pickerChanged() {
+       // All visible
+        self.isSecondValueStackVisible = true
         
+        if self.selectedAction == .remove {
+            self.isSecondValueStackVisible = false
+        }
+    }
+    
     /// Creates a new Rename action and adds it to the Controller
     private func save() {
         var action = RenameAction()

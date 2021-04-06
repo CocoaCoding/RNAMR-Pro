@@ -16,7 +16,7 @@ struct FolderView: View {
         VStack {
             VStack {
                 List {
-                    ForEach (controller.items, id: \.id) { item in
+                    ForEach (controller.renameItems, id: \.id) { item in
                         FileRenameTableRowView(item: item)
                     }
                 }
